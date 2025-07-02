@@ -1,14 +1,17 @@
 .home {
   display: flex;
+  background-color: #f0f0f0;
 
   .homeContainer {
     height: 100vh;
     overflow: scroll;
     flex: 6;
 
+    .widget-cont {
+      margin-top: 70px;
+    }
     .widget-cont,
     .fnc {
-      margin-top: 50px;
       display: flex;
       padding: 1em;
       justify-content: space-between;

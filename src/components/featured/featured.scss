@@ -1,90 +1,83 @@
+.featured-cont {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  justify-content: space-between;
+  padding: 0.8em;
 
+  .top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: rgb(132, 128, 128);
 
-.featured-cont{
+    .top-text {
+      font-weight: 400;
+    }
+  }
+
+  .bottom {
     display: flex;
     flex-direction: column;
-    flex: 1;
-     -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
-    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
-    justify-content: space-between;
-    padding: .8em;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
 
-    .top{
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        color: rgb(132, 128, 128);
+    .target-cont {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1em;
+      padding: 0 1em;
 
-        .top-text{
-            font-weight: 400;
-        }
-    }
-
-    .bottom{
+      .targets-div {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        gap: 0.5rem;
+        justify-content: space-between;
         align-items: center;
-        gap: 1.2rem;
 
-        .target-cont{
-            display: flex;
-            gap: 1rem;
-            margin-bottom: 1em;
-            padding: 0 1em;
-
-            .targets-div{
-               display: flex;
-               flex-direction: column;
-               gap: .5rem;
-               justify-content: space-between;
-               align-items: center;
-    
-               .targets-tp{
-                   color: rgb(132, 128, 128);
-                   font-weight: 500;
-               }
-    
-               .targets-dwn{
-                   display: flex;
-                   font-weight: 600;
-              
-               }
-
-                
-                .negative{
-                    color: red;
-                }
-
-                .positive{
-                    color: green;
-                }
-           }
-
+        .targets-tp {
+          color: rgb(132, 128, 128);
+          font-weight: 500;
         }
 
-
-        .total-text{
-            color: rgb(132, 128, 128);
-            font-size: 1.2rem;
-            font-weight: 600;
+        .targets-dwn {
+          display: flex;
+          font-weight: 600;
         }
 
-        span{
-            font-size: 2rem;
-        }
-        :nth-child(4){
-            color: rgb(132, 128, 128);
-            text-align: center;
-            font-size: 1rem;
-
+        .negative {
+          color: red;
         }
 
-        .featuredChart{
-            width: 7rem;
-            height: 7rem;
-            padding: 2em;
+        .positive {
+          color: green;
         }
-
+      }
     }
+
+    .total-text {
+      color: rgb(132, 128, 128);
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+
+    span {
+      font-size: 2rem;
+    }
+    :nth-child(4) {
+      color: rgb(132, 128, 128);
+      text-align: center;
+      font-size: 1rem;
+    }
+
+    .featuredChart {
+      width: 7rem;
+      height: 7rem;
+      padding: 2em;
+    }
+  }
 }
