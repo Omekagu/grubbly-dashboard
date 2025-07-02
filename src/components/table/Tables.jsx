@@ -9,15 +9,7 @@ import TableRow from '@mui/material/TableRow'
 import Paper from '@mui/material/Paper'
 
 function Tables () {
-  function createData (
-    name: string,
-    calories: number,
-    fat: number,
-    carbs: number,
-    protein: number,
-    methods: string,
-    status: string
-  ) {
+  function createData (name, calories, fat, carbs, protein, methods, status) {
     return { name, calories, fat, carbs, protein, methods, status }
   }
 
