@@ -29,6 +29,7 @@
       align-items: start;
       display: flex;
       flex-direction: column;
+      cursor: pointer;
 
       li {
         display: flex;
@@ -38,6 +39,12 @@
         padding: 0.3em 0.6em;
         gap: 0.5rem;
         transition: all 0.2s;
+
+        span {
+          @media (max-width: 600px) {
+            display: none;
+          }
+        }
 
         &:hover {
           background-color: rgb(243, 238, 238);
