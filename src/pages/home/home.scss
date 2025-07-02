@@ -1,17 +1,18 @@
+.home {
+  display: flex;
 
-.home{
-    display: flex;
+  .homeContainer {
+    height: 100vh;
+    overflow: scroll;
+    flex: 6;
 
-    .homeContainer{
-        flex: 6;
-
-        .widget-cont,
-        .fnc{
-            display: flex;
-            padding: 1em;
-            justify-content: space-between;
-            gap: 1rem;
-           
-        }
+    .widget-cont,
+    .fnc {
+      margin-top: 50px;
+      display: flex;
+      padding: 1em;
+      justify-content: space-between;
+      gap: 1rem;
     }
+  }
 }
